@@ -1,0 +1,129 @@
+/* Estilos gerais */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #F0F0F0;
+    color: #333333;
+    text-align: center;
+}
+
+/* Cabeçalho */
+header {
+    padding: 50px;
+    background-color: #00BFFF;
+    color: white;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Seção de Renda e Despesas */
+#rendaDespesas {
+    margin: 40px auto;
+    width: 80%;
+}
+
+#rendaDespesas h2 {
+    font-size: 2.2em;
+    color: #32CD32;
+}
+
+.input-container {
+    margin: 20px 0;
+}
+
+input {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #32CD32;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #28A745;
+}
+
+/* Seção de Gastos */
+#gastos {
+    margin: 40px auto;
+    width: 80%;
+}
+
+#gastos h2 {
+    font-size: 2.2em;
+    color: #FFA500;
+}
+
+.chart-container {
+    margin: 30px auto;
+    width: 50%;
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+canvas {
+    background-color: #F8F8F8;
+    border-radius: 10px;
+}
+
+/* Seção de Dicas */
+#dicas {
+    margin: 50px auto;
+    width: 80%;
+}
+
+#dicas h2 {
+    font-size: 2.2em;
+    color: #FFA500;
+}
+
+.dicas-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.dica {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.dica h3 {
+    color: #00BFFF;
+}
+
+.dica p {
+    font-size: 1.1em;
+    color: #555555;
+}
+/* Rodapé */
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #00BFFF;
+    color: white;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+footer p {
+    margin: 0;
+}

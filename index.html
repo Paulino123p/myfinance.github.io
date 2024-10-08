@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Controle Financeiro</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Meu Controle Financeiro</h1>
+        <p>Organize suas finanças e veja onde você pode economizar</p>
+    </header>
+
+    <!-- Seção de Renda e Despesas -->
+    <section id="rendaDespesas">
+        <h2>Renda e Despesas</h2>
+        <div class="input-container">
+            <input type="number" placeholder="Renda Mensal" id="renda">
+            <input type="number" placeholder="Despesas Totais" id="despesasTotais">
+            <button id="calcularBtn">Calcular Poupança</button>
+        </div>
+        <div class="result-container">
+            <p id="resultado"></p>
+        </div>
+    </section>
+
+    <!-- Seção de Gastos Mensais -->
+    <section id="gastos">
+        <h2>Seus Gastos Mensais por Categoria</h2>
+        <div class="input-container">
+            <input type="text" placeholder="Categoria" id="categoria">
+            <input type="number" placeholder="Valor" id="valor">
+            <button id="addGastoBtn">Adicionar Gasto</button>
+        </div>
+        <div class="chart-container">
+            <canvas id="pieChart"></canvas>
+        </div>
+    </section>
+
+    <!-- Seção de Dicas de Educação Financeira -->
+    <section id="dicas">
+        <h2>Dicas de Educação Financeira</h2>
+        <div class="dicas-grid">
+            <div class="dica">
+                <h3>Planeje seu Orçamento</h3>
+                <p>Use a regra 50/30/20 para dividir sua renda entre necessidades, desejos e poupança.</p>
+            </div>
+            <div class="dica">
+                <h3>Economize Automaticamente</h3>
+                <p>Configure uma transferência automática para sua conta poupança todo mês.</p>
+            </div>
+            <!-- Mais dicas aqui -->
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<!-- Rodapé com assinatura -->
+<footer>
+    <p>Desenvolvido por Paulino © 2024</p>
+</footer>
